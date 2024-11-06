@@ -1,0 +1,23 @@
+footer {
+    background-color: black;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 144px;
+    width: 100%;
+
+    >a {
+        text-decoration: none;
+        color: white;
+    }
+
+    & a:hover {
+        color: red;
+    }
+}
+
+.social_media_icon {
+    height: 40px;
+    margin: 8px;
+}

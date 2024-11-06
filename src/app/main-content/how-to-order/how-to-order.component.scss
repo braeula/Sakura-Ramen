@@ -1,0 +1,35 @@
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+
+    >h2{
+        color: red;
+        font-size: 50px;
+    }
+}
+
+.order {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.order_steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // width: 400px;
+    text-align: center;
+    gap: 16px;
+
+    >img {
+        width: 128px;
+    }
+}
